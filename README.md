@@ -10,3 +10,7 @@
 
 [//]: # "npm link webpack-lib 映射注释"
 [//]: # "/Users/devin.lin/Desktop/webpack-app/node_modules/webpack-lib -> /Users/devin.lin/.nvm/versions/node/v10.2.0/lib/node_modules/webpack-lib -> /Users/devin.lin/Desktop/webpack-lib"
+
+### 打包文件, 在终端执行下面命令
+
+webpack-lib

@@ -1,2 +1,2 @@
 const str = require("./a.js");
-console.log(str); // ab
+console.log(str);
