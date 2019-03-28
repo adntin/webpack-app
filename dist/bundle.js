@@ -23,9 +23,17 @@
 })({
   
     "./src/index.js": function(module, exports, __webpack_require__) {
-      eval(`const str = __webpack_require__("./src/a.js");
+      eval(`__webpack_require__("./src/index.less");
+
+const str = __webpack_require__("./src/a.js");
 
 console.log(str);`);
+    },
+  
+    "./src/index.less": function(module, exports, __webpack_require__) {
+      eval(`const style = document.createElement('style');
+style.innerHTML = "body {\\n  background-color: red;\\n}\\n";
+document.head.appendChild(style);`);
     },
   
     "./src/a.js": function(module, exports, __webpack_require__) {

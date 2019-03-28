@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/adntin/webpack-app#readme",
   "devDependencies": {
+    "less": "^3.9.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
