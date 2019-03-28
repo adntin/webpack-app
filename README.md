@@ -1,7 +1,7 @@
 ### 运行代码
 
 1. npm i
-2. npm webpack
+2. npx webpack
 
 ### 本地调试
 

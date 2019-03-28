@@ -1,4 +1,6 @@
 const path = require("path");
+const P1 = require("./plugin/P1.js");
+const P2 = require("./plugin/P2.js");
 
 module.exports = {
   mode: "development",
@@ -17,5 +19,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [new P1(), new P2()]
 };
